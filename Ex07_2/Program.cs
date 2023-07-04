@@ -56,8 +56,8 @@ PrintMatrix(matrix);
 
 int[] pos = ReadInt("Задайте номер строки и номер столбца искомого элемента через запятую:  ");
 
-bool find = FindElement(matrix, pos[0], pos[1], out int number);
-if (find)
+//bool find = FindElement(matrix, pos[0], pos[1], out int number);
+if (FindElement(matrix, pos[0], pos[1], out int number))
 {
     System.Console.WriteLine($"Значение искомого элемента равно {number}");
 }
