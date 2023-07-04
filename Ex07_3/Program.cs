@@ -51,7 +51,6 @@ double[] AvgArray(int[,] matrix)
             avg = avg + matrix[j, i];
             if (j == matrix.GetLength(0) - 1)
             {
-
                 array[i] = avg / matrix.GetLength(0);
                 avg = 0;
             }
